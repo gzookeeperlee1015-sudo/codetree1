@@ -5,12 +5,14 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int total = 0;
-        for ( int i = a ; i <= b; i++){
-            if( i % 2 != 0 ){
-            continue;
-        }
-         total += i;
+        for( int i = a ; i <= b ; i++ ) { 
+            if ( i % 2  != 0 ) {
+                continue;
+            }
+            total += i;
+            
         }
         System.out.print(total);
+
     }
 }
